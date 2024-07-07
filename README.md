@@ -42,7 +42,7 @@ Make sure you have the following installed on your machine:
 
 4. Create a tables
     ```sh
-    src/migration/migrate for SQL Syntax Migration
+    src/migration/migrate.sql for SQL Syntax Migration
     ```
 
 ### Running the Project
