@@ -53,9 +53,9 @@ Make sure you have the following installed on your machine:
    npm run dev
    ```
 
-2. Open your browser and navigate to:
+2. Base URL:
    ```
-   http://localhost:8000
+   http://localhost:8000/api/v1
    ```
 
 You should see the responsive design in action.
