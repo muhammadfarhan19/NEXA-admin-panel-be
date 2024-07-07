@@ -57,10 +57,6 @@ Make sure you have the following installed on your machine:
         DATABASE_NAME="yourdatabase"
     ``` 
 
-3. **Connect DB**
-
-    Insert your credentials into src/db.ts
-
 ### Running the Project
 
 1. Start the development server:
@@ -71,7 +67,7 @@ Make sure you have the following installed on your machine:
 
 2. Open your browser and navigate to:
    ```
-   http://localhost:8000//api/v1
+   http://localhost:8000/api/v1
    ```
 
 You should see the responsive design in action.
