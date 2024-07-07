@@ -40,10 +40,26 @@ Make sure you have the following installed on your machine:
    npm install
    ```
 
-4. Create a tables
+### Setup the Database
+1. **Install MySQL**
+    
+    Make sure MySQL is installed on your machine. You can download it from [MySQL official site](https://dev.mysql.com/downloads/)
+
+2. **Setup env**
+
+    Create .env gile for save your credentials,
     ```sh
-    src/migration/migrate.sql for SQL Syntax Migration
-    ```
+        //.env.example
+        DATABASE_URL="mysql://<DATABASE_USER>:<DATABASE_PASSWORD>@<DATABASE_HOST>:3306/<DATABASE_NAME>"
+        DATABASE_HOST="localhost"
+        DABASE_USER="yourusername"
+        DATABASE_PASSWORD="yourpassword"
+        DATABASE_NAME="yourdatabase"
+    ``` 
+
+3. **Connect DB**
+
+    Insert your credentials into src/db.ts
 
 ### Running the Project
 
@@ -53,9 +69,9 @@ Make sure you have the following installed on your machine:
    npm run dev
    ```
 
-2. Base URL:
+2. Open your browser and navigate to:
    ```
-   http://localhost:8000/api/v1
+   http://localhost:8000//api/v1
    ```
 
 You should see the responsive design in action.
