@@ -47,7 +47,7 @@ Make sure you have the following installed on your machine:
 
 2. **Setup env**
 
-    Create .env gile for save your credentials,
+    Create .env file for save your credentials.
     ```sh
         //.env.example
         DATABASE_URL="mysql://<DATABASE_USER>:<DATABASE_PASSWORD>@<DATABASE_HOST>:3306/<DATABASE_NAME>"
